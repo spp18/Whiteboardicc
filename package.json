@@ -1,0 +1,29 @@
+{
+  "name": "whiteboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "zip": "npm-build-zip",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "16": "^0.0.2",
+    "@azure/web-pubsub": "^1.0.0",
+    "@azure/web-pubsub-express": "^1.0.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "zip": "^1.2.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "zip-build": "^1.8.0"
+  }
+}
